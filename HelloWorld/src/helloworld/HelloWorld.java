@@ -4,9 +4,6 @@
  * and open the template in the editor.
  */
 package helloworld;
-
-import mystere.Mystere;
-
 /**
  *
  * @author Dave
@@ -19,8 +16,7 @@ public class HelloWorld {
    public static void main(String[] args) {  
         String nom = "";
         System.out.println("Hello World!");
-        Mystere mystere;
-        mystere = new Mystere();
+       Mystere mystere = new Mystere();
         
             for (int i=0;i<args.length;i++) {
                 if (i!=0) {
